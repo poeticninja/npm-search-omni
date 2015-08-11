@@ -1,0 +1,20 @@
+{
+    "name": "NPM Search Omni",
+    "description": "Add support to the omnibox to search the Drupal API",
+    "permissions": [
+        "tabs"
+    ],
+    "omnibox": {
+        "keyword": "npm"
+    },
+    "icons": {
+        "16": "16x16.png",
+        "48": "48x48.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "version": "1.0",
+    "minimum_chrome_version": "9",
+    "manifest_version": 2
+}
