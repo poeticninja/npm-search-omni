@@ -7,7 +7,7 @@ chrome.omnibox.onInputCancelled.addListener(function() {
 
 chrome.omnibox.onInputEntered.addListener(function(text) {
     chrome.tabs.getSelected(null, function(tab) {
-        chrome.tabs.update(tab.id, {url: 'https://www.google.com/?#q=https://www.npmjs.com/ ' + text});
+        chrome.tabs.update(tab.id, {url: 'https://www.google.com/?#q=site:https://www.npmjs.com/package/ ' + text});
     });
 
 });
